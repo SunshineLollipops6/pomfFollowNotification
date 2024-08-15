@@ -1,8 +1,21 @@
 div {
-  color: blue;
-  text-align: center;
   opacity: 0;
   transition: opacity 1s ease-in-out;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Leftover Crayon';
+  font-style: normal;
+  font-stretch: 100%;
+  src: url(https://files.catbox.moe/lep1pu.otf);
+}
+
+p { 
+  filter: drop-shadow(0 0 0.75px #333) drop-shadow(0 0 0.5px #fbc)  drop-shadow(0 0 0.5px #848275); 
+  color: #white !important; 
+  font-family: 'Leftover Crayon';
+  text-align: center;
 }
 
 .show {
