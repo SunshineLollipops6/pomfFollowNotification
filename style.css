@@ -12,7 +12,7 @@ div {
 }
 
 p { 
-  filter: drop-shadow(0 0 0.75px #333) drop-shadow(0 0 0.5px #fbc)  drop-shadow(0 0 0.5px #848275); 
+  filter: drop-shadow(0 0 1.5vh #333) drop-shadow(0 0 1vh #fbc)  drop-shadow(0 0 1vh #848275); 
   color: #white !important; 
   font-family: 'Leftover Crayon';
   text-align: center;
