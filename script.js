@@ -1,3 +1,6 @@
+const urlParams = new URLSearchParams(queryString);
+const soundURL = urlParams.get('sound');
+const streamer = urlParams.get('streamer');
 /*const exampleSocket = new WebSocket(
   "wss://pomf.tv/websocket/"
 );
@@ -17,7 +20,7 @@ setTimeout(async function() {
   await newSub("ghi");
 }, 2000)
 
-var audio = new Audio('https://files.catbox.moe/wxdzax.mp3');
+var audio = new Audio(soundURL);
 
 async function newSub(name) {
   document.getElementById("sub").textContent = name;
