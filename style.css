@@ -1,20 +1,14 @@
-div {
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
+@import url("https://www.fontbros.com/library/styles/webfont-21332.css");
 
-/* latin */
-@font-face {
-  font-family: 'Leftover Crayon';
-  font-style: normal;
-  font-stretch: 100%;
-  src: url(https://files.catbox.moe/lep1pu.otf);
+div {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
 }
 
 p { 
   filter: drop-shadow(0 0 1.5vh #333) drop-shadow(0 0 1vh #fbc)  drop-shadow(0 0 1vh #848275); 
   color: #white !important; 
-  font-family: 'Leftover Crayon';
+  font-family: 'webfont-21332';
   text-align: center;
   font-size: 10vh;
 }
