@@ -10,7 +10,7 @@ exampleSocket.onopen = (event) => {
   exampleSocket.send('{"roomId":"' + streamer + '","userId":"0","apikey":"Guest","action":"connect"}');
 };
 
-exampleSocket.onmessage = (event) => {
+exampleSocket.onmessage = async (event) => {
   d = JSON.parse(event.data)
   if (d.type == 'new-subscriber') {
     await newSub(d.subscriber.colourName)
