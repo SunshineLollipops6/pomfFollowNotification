@@ -31,7 +31,9 @@ async function newSub(name) {
   //console.log("showing");
   document.getElementById("main").classList.add("show");
   //console.log("playing");
-  audio.play();
+  try {
+    audio.play();
+  }
   //console.log("waiting");
   await new Promise(r => setTimeout(r, 10000));
   //console.log("hiding");
