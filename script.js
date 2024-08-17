@@ -33,6 +33,8 @@ async function newSub(name) {
   //console.log("playing");
   try {
     audio.play();
+  } finally {
+    // ...
   }
   //console.log("waiting");
   await new Promise(r => setTimeout(r, 10000));
