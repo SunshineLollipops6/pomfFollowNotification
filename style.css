@@ -1,24 +1,15 @@
 
 @font-face {
-font-family:'crayon';
-src:url('https://files.catbox.moe/6tvr2f.otf');
-}
-
-div {
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
+font-family:'Capriola';
+src:url('https://fonts.googleapis.com/css?family=Capriola');
 }
 
 p { 
   filter: drop-shadow(0 0 1.5vh #333) drop-shadow(0 0 1vh #fbc)  drop-shadow(0 0 1vh #848275); 
-  color: white !important; 
-  font-family: 'crayon';
+  color: #ffb000 !important; 
+  font-family: 'Capriola';
   text-align: center;
   font-size: 10vh;
-}
-
-.show {
-  opacity: 1;
 }
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
