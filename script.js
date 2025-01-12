@@ -1,6 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const soundURL = urlParams.get('sound');
 const streamer = urlParams.get('streamer');
+const apikey = urlParams.get('apikey');
 
 function reconnect() {
   const exampleSocket = new WebSocket(
@@ -8,7 +9,7 @@ function reconnect() {
   );
   
   exampleSocket.onopen = (event) => {
-    exampleSocket.send('{"roomId":"' + streamer + '","userId":"0","apikey":"Guest","action":"connect"}');
+    exampleSocket.send('{"roomId":"' + streamer + '","userId":"69994","apikey":"' + apikey + '","action":"connect"}');
   };
   
   exampleSocket.onmessage = async (event) => {
