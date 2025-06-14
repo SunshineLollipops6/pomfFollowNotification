@@ -6,7 +6,7 @@ src:url('https://fonts.googleapis.com/css?family=Capriola');
 
 p { 
   filter: drop-shadow(0 0 1.5vh #333) drop-shadow(0 0 1vh #fbc)  drop-shadow(0 0 1vh #848275); 
-  color: #A02175 !important; 
+  color: #FFFFFF !important; 
   font-family: 'Capriola';
   text-align: center;
   font-size: 10vh;
